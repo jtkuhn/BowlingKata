@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace BowlingKata
 {
     //random comment
+    //ANOTHER RANDOM COMMENT!
     public class Game
     {
         private int[] rolls = new int[21];
