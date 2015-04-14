@@ -5,3 +5,10 @@ c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\UnitTestProjec
 c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\UnitTestProject1\bin\Debug\BowlingKata.pdb
 c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\bin\Debug\BowlingKata.dll
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\bin\Debug\BowlingKata.pdb
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\obj\Debug\BowlingKataTest.csprojResolveAssemblyReference.cache
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
