@@ -1,0 +1,5 @@
+c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\BowlingKata\bin\Debug\BowlingKata.dll
+c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\BowlingKata\bin\Debug\BowlingKata.pdb
+c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csprojResolveAssemblyReference.cache
+c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\BowlingKata\obj\Debug\BowlingKata.dll
+c:\users\jtkuhn\documents\visual studio 2013\Projects\BowlingKata\BowlingKata\obj\Debug\BowlingKata.pdb
