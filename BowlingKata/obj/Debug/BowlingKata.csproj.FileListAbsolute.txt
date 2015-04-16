@@ -8,3 +8,8 @@ C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\BowlingKata\bin\Debug\B
 C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csprojResolveAssemblyReference.cache
 C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\BowlingKata\obj\Debug\BowlingKata.dll
 C:\Users\jtkuhn\Documents\GitHub\BowlingKata\BowlingKata\BowlingKata\obj\Debug\BowlingKata.pdb
+C:\Users\Jordan\Source\Repos\BowlingKata\BowlingKata\bin\Debug\BowlingKata.dll
+C:\Users\Jordan\Source\Repos\BowlingKata\BowlingKata\bin\Debug\BowlingKata.pdb
+C:\Users\Jordan\Source\Repos\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Source\Repos\BowlingKata\BowlingKata\obj\Debug\BowlingKata.dll
+C:\Users\Jordan\Source\Repos\BowlingKata\BowlingKata\obj\Debug\BowlingKata.pdb
