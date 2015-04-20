@@ -25,31 +25,33 @@ namespace BowlingKata
 
             for (int frame = 0; frame < 10; frame++)
             {
-                if (rolls[i] == 10) //if strike
-                {
-                    score += rolls[i];
-                    score += rolls[i + 1]; //add the next 2 rolls
-                    score += rolls[i + 2];
-                    i++;
-                }
-                else if (rolls[i] + rolls[i + 1] == 10) //else if spare
-                {
-                    score += rolls[i];
-                    score += rolls[i + 1];
-                    score += rolls[i + 2]; //add the next roll
-                    i += 2;
-                }
-                else //else just a regular frame
-                {
-                    score += rolls[i];
-                    score += rolls[i + 1];
-                    i += 2;
-                }
+                score = ScoreFrame(score, rolls[i], rolls[i+1], rolls[i+2]);
             }
                 
             return score;
         }
 
-
-}
+        private int ScoreFrame(int prevScore, int thisRoll, int nextRoll, int secondNextRoll)
+        {
+           
+            if (thisRoll == 10) //if strike
+            {
+                prevScore += thisRoll;
+                prevScore += nextRoll; //add the next 2 rolls
+                prevScore += secondNextRoll;
+            }
+            else if (thisRoll + nextRoll == 10) //else if spare
+            {
+                prevScore += thisRoll;
+                prevScore += nextRoll;
+                prevScore += secondNextRoll; //add the next roll
+            }
+            else //else just a regular frame
+            {
+                prevScore += thisRoll;
+                prevScore += nextRoll;
+            }
+            return prevScore;
+        }
+    }
 }
