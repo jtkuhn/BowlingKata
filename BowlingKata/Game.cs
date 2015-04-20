@@ -21,34 +21,42 @@ namespace BowlingKata
         public int Score()
         {
             int i = 0;
-            int score = 0;
+            int totalScore = 0;
 
             for (int frame = 0; frame < 10; frame++)
             {
-
                 if (rolls[i] == 10) //if strike
                 {
-                    score += rolls[i];
-                    score += rolls[i + 1]; //add the next 2 rolls
-                    score += rolls[i + 2];
-                    i++;
+                    totalScore += ScoreStrike(i);
+                    i--;
                 }
                 else if (rolls[i] + rolls[i + 1] == 10) //else if spare
                 {
-                    score += rolls[i];
-                    score += rolls[i + 1];
-                    score += rolls[i + 2]; //add the next roll
-                    i += 2;
+                    totalScore += ScoreSpare(i);
                 }
-               else //else just a regular frame
+                else //else just a regular frame
                 {
-                    score += rolls[i];
-                    score += rolls[i + 1];
-                    i += 2;
+                    totalScore += rolls[i];
+                    totalScore += rolls[i + 1];
                 }
+                i += 2;
             }
 
-            return score;
+            return totalScore;
+        }
+
+        private int ScoreStrike(int i)
+        {
+            int tempScore = 0;
+            tempScore += 10 + rolls[i + 1] + rolls[i + 2];
+            return tempScore;
+        }
+
+        private int ScoreSpare(int i)
+        {
+            int tempScore = 0;
+            tempScore += 10 + rolls[i + 2];
+            return tempScore;
         }
     }
 }
