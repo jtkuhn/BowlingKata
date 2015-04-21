@@ -22,7 +22,6 @@ namespace BowlingKata
         public int Score()
         {
             int i = 0;
-
             for (int frame = 0; frame < 10; frame++)
             {
                 i += ScoreFrame(i);
@@ -32,20 +31,11 @@ namespace BowlingKata
 
         private int ScoreFrame(int i)
         {
-            if (IsStrike(i)) //if strike
-            {
-                totalScore += ScoreStrike(i);
-                return 1;
-            }
-            else if (IsSpare(i)) //else if spare
-            {
-                totalScore += ScoreSpare(i);
-            }
-            else //else just a regular frame
-            {
-                totalScore += ScoreRegularFrame(i);
-            }
-            return 2;
+            TestAndScoreSpare(i);
+            
+            TestAndScoreRegular(i);
+
+            return TestAndScoreStrike(i);
         }
 
         private Boolean IsSpare(int i)
@@ -56,6 +46,33 @@ namespace BowlingKata
         private Boolean IsStrike(int i)
         {
             return rolls[i] == 10;
+        }
+
+        private void TestAndScoreRegular(int i)
+        {
+            if (!IsStrike(i) && !IsSpare(i))
+            {
+                totalScore += ScoreRegularFrame(i);
+
+            }
+        }
+
+        private void TestAndScoreSpare(int i)
+        {
+            if (IsSpare(i)) //else if spare
+            {
+                totalScore += ScoreSpare(i);
+            }
+        }
+
+        private int TestAndScoreStrike(int i)
+        {
+            if (IsStrike(i)) //if strike
+            {
+                totalScore += ScoreStrike(i);
+                return 1;
+            }
+            return 2;
         }
 
         private int ScoreRegularFrame(int i)
